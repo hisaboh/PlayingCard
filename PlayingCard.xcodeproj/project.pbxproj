@@ -12,6 +12,8 @@
 		ECCD802B20737622000EFEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD802920737622000EFEF6 /* Main.storyboard */; };
 		ECCD802D20737624000EFEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCD802C20737624000EFEF6 /* Assets.xcassets */; };
 		ECCD803020737624000EFEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD802E20737624000EFEF6 /* LaunchScreen.storyboard */; };
+		ECCD80392073768A000EFEF6 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD80382073768A000EFEF6 /* PlayingCard.swift */; };
+		ECCD803B207378F3000EFEF6 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD803A207378F3000EFEF6 /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ECCD802C20737624000EFEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCD802F20737624000EFEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCD803120737624000EFEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCD80382073768A000EFEF6 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		ECCD803A207378F3000EFEF6 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		ECCD802420737622000EFEF6 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				ECCD802520737622000EFEF6 /* AppDelegate.swift */,
+				ECCD80382073768A000EFEF6 /* PlayingCard.swift */,
+				ECCD803A207378F3000EFEF6 /* PlayingCardDeck.swift */,
 				ECCD802720737622000EFEF6 /* ViewController.swift */,
 				ECCD802920737622000EFEF6 /* Main.storyboard */,
 				ECCD802C20737624000EFEF6 /* Assets.xcassets */,
-				ECCD802E20737624000EFEF6 /* LaunchScreen.storyboard */,
+				ECCD803720737645000EFEF6 /* Supporting Files */,
 				ECCD803120737624000EFEF6 /* Info.plist */,
 			);
 			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		ECCD803720737645000EFEF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD802E20737624000EFEF6 /* LaunchScreen.storyboard */,
+				ECCD802520737622000EFEF6 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECCD802820737622000EFEF6 /* ViewController.swift in Sources */,
+				ECCD803B207378F3000EFEF6 /* PlayingCardDeck.swift in Sources */,
+				ECCD80392073768A000EFEF6 /* PlayingCard.swift in Sources */,
 				ECCD802620737622000EFEF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
