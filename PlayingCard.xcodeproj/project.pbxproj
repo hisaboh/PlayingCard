@@ -14,6 +14,7 @@
 		ECCD803020737624000EFEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD802E20737624000EFEF6 /* LaunchScreen.storyboard */; };
 		ECCD80392073768A000EFEF6 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD80382073768A000EFEF6 /* PlayingCard.swift */; };
 		ECCD803B207378F3000EFEF6 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD803A207378F3000EFEF6 /* PlayingCardDeck.swift */; };
+		ECCD803D20737F37000EFEF6 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD803C20737F37000EFEF6 /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ECCD803120737624000EFEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECCD80382073768A000EFEF6 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		ECCD803A207378F3000EFEF6 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		ECCD803C20737F37000EFEF6 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				ECCD802C20737624000EFEF6 /* Assets.xcassets */,
 				ECCD803720737645000EFEF6 /* Supporting Files */,
 				ECCD803120737624000EFEF6 /* Info.plist */,
+				ECCD803C20737F37000EFEF6 /* PlayingCardView.swift */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				ECCD802820737622000EFEF6 /* ViewController.swift in Sources */,
 				ECCD803B207378F3000EFEF6 /* PlayingCardDeck.swift in Sources */,
 				ECCD80392073768A000EFEF6 /* PlayingCard.swift in Sources */,
+				ECCD803D20737F37000EFEF6 /* PlayingCardView.swift in Sources */,
 				ECCD802620737622000EFEF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
