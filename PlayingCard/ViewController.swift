@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var cards = [PlayingCard]()
-        for _ in 1...(cardViews.count + 1) / 2 {
+        for _ in 1...((cardViews.count) / 2) {
             let card = deck.draw()!
             cards += [card, card]
         }
