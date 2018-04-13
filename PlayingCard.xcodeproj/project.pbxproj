@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC5E41B92074EBFB00E9934F /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E41B82074EBFB00E9934F /* CardBehavior.swift */; };
+		EC85A5F820808A1C006BC547 /* CMMotionManager+shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC85A5F720808A1C006BC547 /* CMMotionManager+shared.swift */; };
 		ECCD802620737622000EFEF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD802520737622000EFEF6 /* AppDelegate.swift */; };
 		ECCD802820737622000EFEF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD802720737622000EFEF6 /* ViewController.swift */; };
 		ECCD802B20737622000EFEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD802920737622000EFEF6 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		EC5E41B82074EBFB00E9934F /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
+		EC85A5F720808A1C006BC547 /* CMMotionManager+shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMMotionManager+shared.swift"; sourceTree = "<group>"; };
 		ECCD802220737622000EFEF6 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCD802520737622000EFEF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCD802720737622000EFEF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				ECCD80382073768A000EFEF6 /* PlayingCard.swift */,
 				ECCD803A207378F3000EFEF6 /* PlayingCardDeck.swift */,
 				ECCD802720737622000EFEF6 /* ViewController.swift */,
+				EC85A5F720808A1C006BC547 /* CMMotionManager+shared.swift */,
 				EC5E41B82074EBFB00E9934F /* CardBehavior.swift */,
 				ECCD802920737622000EFEF6 /* Main.storyboard */,
 				ECCD802C20737624000EFEF6 /* Assets.xcassets */,
@@ -158,6 +161,7 @@
 				ECCD802820737622000EFEF6 /* ViewController.swift in Sources */,
 				ECCD803B207378F3000EFEF6 /* PlayingCardDeck.swift in Sources */,
 				ECCD80392073768A000EFEF6 /* PlayingCard.swift in Sources */,
+				EC85A5F820808A1C006BC547 /* CMMotionManager+shared.swift in Sources */,
 				ECCD803D20737F37000EFEF6 /* PlayingCardView.swift in Sources */,
 				ECCD802620737622000EFEF6 /* AppDelegate.swift in Sources */,
 				EC5E41B92074EBFB00E9934F /* CardBehavior.swift in Sources */,
